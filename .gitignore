@@ -3,7 +3,3 @@ install/
 log/
 __pycache__/
 *.swp
-
-build/
-install/
-log/
