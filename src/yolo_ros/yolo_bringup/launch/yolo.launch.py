@@ -53,7 +53,7 @@ def generate_launch_description():
         device = LaunchConfiguration("device")
         device_cmd = DeclareLaunchArgument(
             "device",
-            default_value="cpu",
+            default_value="cuda:0",
             description="Device to use (GPU/CPU)",
         )
 
